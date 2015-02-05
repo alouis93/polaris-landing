@@ -11,7 +11,34 @@
 }
 
 .marvel-device .screen{
-    background: wheat;
+      background: url(../img/test.png) no-repeat bottom center;
+      background-size: cover;
+    /*background: wheat;*/
+}
+
+.vcenter_ctr {
+    height: 569px;
+    padding-top: 88px;
+}
+
+.vcenter{
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    color:#E74C3C;
+    font-size: 22px;
+}
+
+.infotext{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.polaris_font{
+    font-weight: 700;
+    font-family: Quicksand;
+    text-transform: lowercase;
 }
 
 body {
@@ -25,6 +52,10 @@ body {
 html {
     width: 100%;
     height: 100%;
+}
+
+.polaris_font{
+    font-family: Quicksand;
 }
 
 h1,
